@@ -1,0 +1,148 @@
+/* Navigation bar */
+.nav {
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;  /* لجعل الناف بار ثابت */
+    top: 0;
+    width: 100%;
+    z-index: 1000;  /* لتفادي تغطية المحتويات الأخرى */
+}
+
+.logoimg {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ul li {
+    margin: 0 15px;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: rgb(224, 186, 15);
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.gallery{
+    display: flex;
+    padding: 200px 200px 100px;
+}
+.smallimg ol {
+    list-style: none;
+    padding: 0;
+}
+
+.smallimg img {
+    
+    width: 60px;
+    height: 92px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    opacity: 0.6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.smallimg img:hover {
+    opacity: 1;
+}
+
+.big-img {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.big-img img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.write {
+    padding-left: 20px;
+}
+
+.write a {
+    color: blue;
+    text-decoration: none;
+}
+
+.write a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Footer section */
+.allfooter{
+    background-color: black; /* الخلفية سوداء */  
+}
+.footer {
+    background-color: black; /* الخلفية سوداء */
+    color: white; /* النص أبيض */
+    display: flex; /* لجعل المحتويات جنب بعضها */
+    padding: 100px 100px 100px;
+
+}
+
+
+.fristp img {
+    width: 40px;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    transition: opacity 0.3s;
+    padding: 30px 70px;
+    margin-bottom: 5px;
+}
+.footer p{
+    margin-left: 10px;
+    margin-top: -10px;
+
+}
+.secondp{
+    padding: 10px 160px 60px;
+}
+.secondp img{
+    background-color: aliceblue;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 70px;
+    object-fit: cover;
+    transition: opacity 0.3s;
+    padding: 10px 10px;
+    
+}
+
+.footer hr {
+    width: 100%;
+    border: 0; /* إزالة الحدود الافتراضية */
+    height: 1px; /* سمك الخط */
+    background-color: #ccc; /* لون الخط */
+    margin: 20px 0; /* مسافة فوق وتحت الخط */
+}
+.footer-text {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc; /* لون النص */
+    margin-top: 10px; /* مسافة فوق النص */
+}
